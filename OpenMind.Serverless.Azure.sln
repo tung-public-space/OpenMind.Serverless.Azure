@@ -1,0 +1,61 @@
+﻿﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Api", "src\Order.Api\Order.Api.csproj", "{A529FA8C-F7E1-4875-BDC6-4AA5140856DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Application", "src\Order.Application\Order.Application.csproj", "{B529FA8C-F7E1-4875-BDC6-4AA5140856DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Domain", "src\Order.Domain\Order.Domain.csproj", "{C529FA8C-F7E1-4875-BDC6-4AA5140856DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Infrastructure", "src\Order.Infrastructure\Order.Infrastructure.csproj", "{D529FA8C-F7E1-4875-BDC6-4AA5140856DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.UnitTests", "tests\Order.UnitTests\Order.UnitTests.csproj", "{E529FA8C-F7E1-4875-BDC6-4AA5140856DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.IntegrationTests", "tests\Order.IntegrationTests\Order.IntegrationTests.csproj", "{F529FA8C-F7E1-4875-BDC6-4AA5140856DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{11111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{22222222-2222-2222-2222-222222222222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A529FA8C-F7E1-4875-BDC6-4AA5140856DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A529FA8C-F7E1-4875-BDC6-4AA5140856DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A529FA8C-F7E1-4875-BDC6-4AA5140856DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A529FA8C-F7E1-4875-BDC6-4AA5140856DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B529FA8C-F7E1-4875-BDC6-4AA5140856DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B529FA8C-F7E1-4875-BDC6-4AA5140856DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B529FA8C-F7E1-4875-BDC6-4AA5140856DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B529FA8C-F7E1-4875-BDC6-4AA5140856DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C529FA8C-F7E1-4875-BDC6-4AA5140856DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C529FA8C-F7E1-4875-BDC6-4AA5140856DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C529FA8C-F7E1-4875-BDC6-4AA5140856DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C529FA8C-F7E1-4875-BDC6-4AA5140856DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D529FA8C-F7E1-4875-BDC6-4AA5140856DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D529FA8C-F7E1-4875-BDC6-4AA5140856DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D529FA8C-F7E1-4875-BDC6-4AA5140856DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D529FA8C-F7E1-4875-BDC6-4AA5140856DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E529FA8C-F7E1-4875-BDC6-4AA5140856DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E529FA8C-F7E1-4875-BDC6-4AA5140856DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E529FA8C-F7E1-4875-BDC6-4AA5140856DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E529FA8C-F7E1-4875-BDC6-4AA5140856DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F529FA8C-F7E1-4875-BDC6-4AA5140856DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F529FA8C-F7E1-4875-BDC6-4AA5140856DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F529FA8C-F7E1-4875-BDC6-4AA5140856DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F529FA8C-F7E1-4875-BDC6-4AA5140856DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A529FA8C-F7E1-4875-BDC6-4AA5140856DA} = {11111111-1111-1111-1111-111111111111}
+		{B529FA8C-F7E1-4875-BDC6-4AA5140856DB} = {11111111-1111-1111-1111-111111111111}
+		{C529FA8C-F7E1-4875-BDC6-4AA5140856DC} = {11111111-1111-1111-1111-111111111111}
+		{D529FA8C-F7E1-4875-BDC6-4AA5140856DD} = {11111111-1111-1111-1111-111111111111}
+		{E529FA8C-F7E1-4875-BDC6-4AA5140856DE} = {22222222-2222-2222-2222-222222222222}
+		{F529FA8C-F7E1-4875-BDC6-4AA5140856DF} = {22222222-2222-2222-2222-222222222222}
+	EndGlobalSection
+EndGlobal
